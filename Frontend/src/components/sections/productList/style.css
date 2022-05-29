@@ -1,0 +1,36 @@
+.image-container {
+    border: none;
+    background-color: transparent;
+}
+
+.category-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+    margin-top: -40px;
+}
+
+.btn{
+
+    width:150px;
+    padding:10px;
+    background: #ececeb;
+    box-shadow: 0px 2px 5px 1px rgb(211, 208, 208);
+    margin:10px;
+    color:rgb(88, 88, 88);
+    border-radius: 10px;
+    transition: 0.7s ease;
+    font-weight: 500;
+}
+
+.btn .active{
+    background-color: rgb(221, 137, 40);
+}
+
+.btn:hover{
+    background-color: rgb(243, 242, 241);
+    color:rgb(150, 148, 148);
+}

@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "link":"/",
+        "linkText": "Home Page",
+        "child": false,
+        "icon": "home"
+        
+    },
+    {
+        "id": 2,
+        "linkText": "Pages",
+        "child": true,
+        "icon": "layers",
+        "submenu": [
+            {
+                "id": 31,
+                "link": "/about",
+                "linkText": "About Us"
+            },
+            {
+                "id": 32,
+                "link": "/products",
+                "linkText": "Products"
+            },
+            {
+                "id": 34,
+                "link": "/cart",
+                "linkText": "Cart"
+            }
+           
+        ]
+    },
+    {
+        "id": 3,
+        "linkText": "Men",
+        "child": true,
+        "icon": "layers",
+        "submenu": [
+            {
+                "id": 31,
+                "link": "/",
+                "linkText": "Jeans"
+            },
+            {
+                "id": 32,
+                "link": "/",
+                "linkText": "Shirts"
+            },
+            {
+                "id": 34,
+                "link": "/",
+                "linkText": "Suits"
+            }
+           
+        ]
+    },
+    {
+        "id": 4,
+        "linkText": "Women",
+        "child": true,
+        "icon": "layers",
+        "submenu": [
+            {
+                "id": 31,
+                "link": "/",
+                "linkText": "Dress"
+            },
+            {
+                "id": 32,
+                "link": "/",
+                "linkText": "Shirts"
+            },
+            {
+                "id": 34,
+                "link": "/",
+                "linkText": "Jeans"
+            }
+           
+        ]
+    },
+    {
+        "id": 4,
+        "linkText": "Accessories",
+        "link": "/",
+        "child": false,
+        "icon": "list"
+    },
+    {
+        "id": 5,
+        "linkText": "Profile",
+        "link": "/profile",
+        "child": false,
+        "icon": "list"
+    }
+    
+]

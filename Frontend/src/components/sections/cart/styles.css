@@ -1,0 +1,102 @@
+
+.title {
+    margin-top: 30px;
+  }
+#Billing{
+    box-shadow:1px 3px 6px 0px rgb(110, 109, 109);
+    position: relative;
+    width:300px;
+    height:380px;
+    padding:10px;
+    color:black;	
+    background-color:rgba(253, 253, 253, 0.9);
+}
+
+.Billing-content {
+ position: relative;
+ width: 100%; 
+ float:right;
+ 
+}
+.Billing-header {
+
+ padding:6px;
+ background-color:rgba(0,0,0,0.9);
+ font-family:Times New Roman,sans-serif;
+ color:#ffffff ;
+ letter-spacing:2px;
+ justify-content: center;
+ align-items: center;
+}
+
+.Billing-header h1{
+    color:white;
+    align-self: center;
+    text-align: center;
+    font-size: 25px;    
+}
+
+.Billing-content{
+ padding: 30px; 
+}
+.Billing-content p.sub-total {
+ padding-top: 15px;
+ border-top: 1px solid #dddddd;
+}
+
+.Billing-content p span {
+ float: right;
+}
+.Billing-content h2 {
+ font-size: 22px;
+ padding-top: 12px;
+ border-top: 1px solid #ffffff;
+ margin: 0;
+ color:#07554a;
+
+}
+.Billing-content h2 span {
+ float:right;
+}
+
+.cart-products-image{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	
+}
+
+.link {
+    text-decoration: 'none',
+}
+
+#icon {
+    color:#CA2918;
+    font-size: 10px;
+    margin:10px;
+    cursor: pointer;
+}
+
+#grandTotal{
+    margin-left: 30px;
+}
+.checkout-btn{
+    position: relative;
+    width: 302px;
+    background-color:rgb(28, 177, 169);
+    color:white;
+    padding:10px;
+    border:none;
+    margin-top: -50px;
+    margin-left: -10px;
+    border-radius: 2px;
+    z-index: 2;
+    box-shadow:1px 3px 8px 0px rgb(110, 109, 109);
+}
+
+.checkout-btn:hover {
+    background-color:rgb(8, 119, 114);
+    cursor: pointer;
+}
+
+

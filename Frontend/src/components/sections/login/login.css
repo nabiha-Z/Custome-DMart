@@ -1,0 +1,22 @@
+.forgot-password{
+    color: rgb(37, 113, 201);
+    cursor: pointer;
+}
+
+.loginBtn{
+    width: 100%; 
+    margin-bottom: 10px;
+    background-color:#D79170;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    transition: 0.7s ease-in;
+}
+
+.loginBtn:hover{
+    background-color: #be7959;
+    transition: 0.7s ease-in;
+    
+}

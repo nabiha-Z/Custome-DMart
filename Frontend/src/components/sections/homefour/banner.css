@@ -1,0 +1,198 @@
+.header{
+	
+	height:626px;
+	background-image:url('./images/bg1.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#Fixed-NavBar{
+	position:fixed;
+	background-color:none;
+	transition: 0.8s;
+	padding:10px;
+	top:-5px;
+	width:100%;	
+}
+
+#logo{
+
+    width:80px;
+    height:80px;	
+	padding:2px;
+	margin-left:150px;
+	transition: 0.8s;	
+}
+
+#list-inline{
+   list-style-type: none;
+   margin: auto;
+   padding-left: 80px;
+   margin-top:20px;
+}
+li.navigation{
+	display:inline;
+	padding-right: 60px;
+	font-size:14px;
+	font-style:bold;
+	letter-spacing:3px;
+}
+
+li.navigation .active{
+	text-decoration:underline;
+	color:#F5C346;
+	
+}
+#collapse-menu{
+	
+	background-color:#B60104 ;
+	border-radius:6px ;
+	margin-right:20px;
+	
+}
+
+.nav-link{
+    margin: 9px;
+    position: relative;
+}
+
+li a{
+	color:white;
+	text-shadow:1px 1px 1px black;
+	position:relative;
+	
+}
+
+li a::after{
+	
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background-color:#F5C346;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+li a:hover::after{
+	
+  width: 100%; 
+  left: 0; 
+  
+}
+li a:hover{
+	transition:0.8s;
+	color:#F5C346;
+	cursor:pointer;	
+}
+
+li #cart:hover{
+	transition:1.0s;
+	padding:10px;
+	border-radius:5px;
+	color:#FAF5E7  ;
+	cursor:pointer;
+	margin-left:90px;
+	background-color:none;	
+}
+
+.imgslider {
+    width: 100%;
+    margin: auto;
+	height:626px;
+    background-color: #B1ACAD;
+
+   }
+
+.caption{
+   width:100%;
+   position:absolute;
+   color:white;
+   top:33%;
+   
+}
+
+.caption h1{
+	font-size:50px;
+	font-weight:800px;
+	letter-spacing:1px;
+	text-decoration:bold;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+}
+.caption p{
+	margin-top:20px;
+	font-size:20px;
+	letter-spacing:3px;
+	text-shadow: 1px 1px 1px black;
+	text-align:center;
+	color:#B1ACAD;	
+}
+#Order-Button{
+	top:20px;
+	border-radius:23px;
+	padding:9px;
+	background-color:rgba(246, 85, 53,0.6) ;
+	color:#E3E1E0 ;
+	font-size:30px;
+}
+
+#Order-Button:hover{
+	text-decoration:none;
+	background-color:rgba(246, 85, 53,1.0) ;
+}
+
+.carousel-item{
+    background-color: #B1ACAD;
+}
+
+#loginBtn, #signupBtn{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    color:rgb(18, 54, 63);
+    text-align: center;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#loginBtn:hover{
+    color: rgb(10, 141, 173);
+}
+
+#signupBtn{
+    background-color: rgb(18, 54, 63);
+    color:white;
+   width: 80px;
+}
+
+#signupBtn:hover{
+    background-color: rgb(226, 230, 231);
+    color:black
+}
+
+#transparentHeader{
+    top: 0;
+    position:fixed;
+    width: 100%;
+    background: transparent;
+    box-shadow: 0px 2px 15px 1px rgb(199, 198, 198);
+    transition: 0.7s ease;
+    padding:0px;
+}
+
+#coloredHeader{
+    
+    top: 0;
+    position:fixed;
+    width: 100%;
+    background: transparent;
+    box-shadow: 0px 2px 15px 1px rgb(199, 198, 198);
+    transition: 0.7s ease;
+    padding:0px;
+}

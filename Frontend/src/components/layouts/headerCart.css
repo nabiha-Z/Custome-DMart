@@ -1,0 +1,53 @@
+
+.modalWrapper {
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(79, 79, 79, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .modal{
+      
+    width: 40%;
+    height: 70%;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation: fadeInDown 0.8s;
+    overflow-y: scroll;
+  }
+
+
+  .heading {
+      text-align: center;
+      margin: 10px;
+      font-weight: bold;
+  }
+  .btnClose {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .model-content {
+      flex: 1;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+  }

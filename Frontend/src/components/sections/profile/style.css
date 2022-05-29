@@ -1,0 +1,23 @@
+ .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
+    background: #9DC4CD;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #ccc;
+    transition:.2s, 
+    opacity .5s, visibility .3s;
+    z-index: 1000;
+  }
+  
+  .back-to-top:hover {
+    background: #27718A;
+  }
+
