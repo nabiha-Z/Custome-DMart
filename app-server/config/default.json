@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://waleedabdullah:waleed170300@cluster0.tmq0s.mongodb.net/Custom_DMart?retryWrites=true&w=majority",
+    "jwtSecretKey": "myjwtKey" 
+}
